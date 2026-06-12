@@ -1,0 +1,7 @@
+.claude/
+target/
+build/
+*.class
+*.jar
+.gradle/
+out/
