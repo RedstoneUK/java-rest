@@ -20,12 +20,12 @@ solutions/  Reference implementations for each lab (per module)
 | # | Module | Lab |
 |---|--------|-----|
 | 01 | [Introduction to REST APIs](labs/01-introduction-to-rest-apis/README.md) | Explore REST APIs with curl |
-| 02 | JSON and Java Object Conversion | Gson serialisation exercises |
-| 03 | Building a Basic CRUD API with Java SE | HttpServer + in-memory store |
-| 04 | Separation of Concerns and Unit Testing | Layered refactor + JUnit/Mockito |
-| 05 | Persisting Data with JDBC and MySQL | JDBC + HikariCP data access layer |
-| 06 | HTTP Status Codes, Exception Handling, and Logging | Error handling + logging |
-| 07 | Building and Deploying with Gradle and Docker | Dockerfile + container run |
+| 02 | [JSON and Java Object Conversion](labs/02-json-and-java-object-conversion/README.md) | Gson serialisation exercises |
+| 03 | [Building a Basic CRUD API with Java SE](labs/03-building-a-basic-crud-api-with-java-se/README.md) | HttpServer + in-memory store |
+| 04 | [Separation of Concerns and Unit Testing](labs/04-separation-of-concerns-and-unit-testing/README.md) | Layered refactor + JUnit/Mockito |
+| 05 | [Persisting Data with JDBC and MySQL](labs/05-persisting-data-with-jdbc-and-mysql/README.md) | JDBC + HikariCP data access layer |
+| 06 | [HTTP Status Codes, Exception Handling, and Logging](labs/06-http-status-codes-exception-handling-and-logging/README.md) | Error handling + logging |
+| 07 | [Building and Deploying with Gradle and Docker](labs/07-building-and-deploying-with-gradle-and-docker/README.md) | Dockerfile + container run |
 
 ---
 
