@@ -78,12 +78,12 @@ The service must:
 
 ## Exercise 3 — Refactor ProductHandler (15 min)
 
-Refactor `ProductHandler` so that:
+Refactor `src/main/java/com/example/api/handler/ProductHandler.java` so that:
 - It accepts a `ProductService` via its constructor (no direct store access)
 - All business logic is delegated to the service
 - The handler only deals with HTTP: reading requests, sending responses
 
-Update `App.java` to wire the layers together:
+Update `src/main/java/com/example/api/App.java` to wire the layers together:
 
 ```java
 ProductRepository repository = new ProductRepository();
@@ -138,7 +138,7 @@ verify(repository).save(incoming);
 - [ ] `ProductRepository` manages the store; `ProductService` has no store access
 - [ ] `ProductService` receives its repository via constructor
 - [ ] `ProductHandler` receives its service via constructor
-- [ ] `App.java` wires the three layers manually
+- [ ] `src/main/java/com/example/api/App.java` wires the three layers manually
 - [ ] All five curl endpoints still return correct responses
 - [ ] All unit tests pass: `./gradlew test`
 - [ ] At least one test uses `verify()` to assert repository interactions

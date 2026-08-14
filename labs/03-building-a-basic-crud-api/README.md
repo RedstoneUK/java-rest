@@ -52,7 +52,7 @@ You are building a REST API for a **product catalogue**. Each product has:
 
 ## Exercise 1 — Start the HTTP Server (10 min)
 
-Open `App.java`. Complete the `main` method to:
+Open `src/main/java/com/example/api/App.java`. Complete the `main` method to:
 
 1. Create an `HttpServer` bound to port 8080.
 2. Register a context at `/api/products` with a `ProductHandler`.
@@ -74,7 +74,7 @@ curl -s http://localhost:8080/api/products
 
 ## Exercise 2 — Implement GET All Products (10 min)
 
-Open `ProductHandler.java`. The handler already has a `ConcurrentHashMap` store and two
+Open `src/main/java/com/example/api/ProductHandler.java`. The handler already has a `ConcurrentHashMap` store and two
 seed products.
 
 Complete `handleGetAll`:

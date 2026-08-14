@@ -54,7 +54,7 @@ This exception will be thrown anywhere in the routing logic when a client error 
 
 ## Exercise 3 — Centralised Exception Handling (20 min)
 
-Refactor `ProductHandler` so that:
+Refactor `src/main/java/com/example/api/handler/ProductHandler.java` so that:
 
 1. The `handle()` method contains a single `try/catch` block:
    ```java
@@ -98,7 +98,7 @@ Refactor `ProductHandler` so that:
 
 ## Exercise 4 — Add Logging (20 min)
 
-Add a logger to `ProductHandler`:
+Add a logger to `src/main/java/com/example/api/handler/ProductHandler.java`:
 
 ```java
 private static final Logger LOGGER = Logger.getLogger(ProductHandler.class.getName());

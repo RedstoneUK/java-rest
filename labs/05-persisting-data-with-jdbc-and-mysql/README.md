@@ -101,7 +101,7 @@ Default values for local development:
 
 ## Exercise 3 — Replace ProductRepository with a JDBC Implementation (40 min)
 
-Replace the contents of `ProductRepository.java` with a JDBC-backed implementation. The constructor must accept a `DataSource`.
+Replace the contents of `src/main/java/com/example/api/repository/ProductRepository.java` with a JDBC-backed implementation. The constructor must accept a `DataSource`.
 
 Implement each method using `try-with-resources` to ensure connections are always returned to the pool.
 
@@ -169,7 +169,7 @@ Wrap all `SQLException` instances in `RuntimeException` before re-throwing:
 
 ## Exercise 4 — Update App.java (10 min)
 
-Update `App.java` to wire a `DataSource` into the repository:
+Update `src/main/java/com/example/api/App.java` to wire a `DataSource` into the repository:
 
 ```java
 DataSource        dataSource = DatabaseConfig.createDataSource();
