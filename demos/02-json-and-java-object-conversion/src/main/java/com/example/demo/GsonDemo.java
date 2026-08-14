@@ -39,3 +39,4 @@ public class GsonDemo {
         System.out.println("Pretty:\n" + prettyGson.toJson(product));
     }
 }
+
